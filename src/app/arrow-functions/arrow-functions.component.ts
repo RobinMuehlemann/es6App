@@ -47,4 +47,16 @@ export class ArrowFunctionsComponent implements OnInit {
     };
     obj.myFunction();
   }
+
+  doEasyArrowFunction() {
+    // tslint:disable-next-line:only-arrow-functions
+    const calcWithout = function(a, b) {
+      return a + b;
+    };
+    // - Ohne geschweifte Klammern braucht es bzw. darf man kein return brauchen
+    const calcWith = (a, b) => a + b;
+
+    console.log('calc without arrow function: ', calcWith(3, 3));
+    console.log('calc with arrow function: ', calcWithout(5, 5));
+  }
 }
