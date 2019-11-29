@@ -7,6 +7,7 @@ import { TemplateLiteralsComponent } from './template-literals/template-literals
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { DestructuringObjectsComponent } from './destructuring-objects/destructuring-objects.component';
 import { ArrowFunctionsComponent } from './arrow-functions/arrow-functions.component';
+import { ForOfComponent } from './for-of/for-of.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ArrowFunctionsComponent } from './arrow-functions/arrow-functions.compo
     TemplateLiteralsComponent,
     LandingPageComponent,
     DestructuringObjectsComponent,
-    ArrowFunctionsComponent
+    ArrowFunctionsComponent,
+    ForOfComponent
   ],
   imports: [
     BrowserModule,
