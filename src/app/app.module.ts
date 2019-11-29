@@ -8,6 +8,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { DestructuringObjectsComponent } from './destructuring-objects/destructuring-objects.component';
 import { ArrowFunctionsComponent } from './arrow-functions/arrow-functions.component';
 import { ForOfComponent } from './for-of/for-of.component';
+import { MapSetComponent } from './map-set/map-set.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ForOfComponent } from './for-of/for-of.component';
     LandingPageComponent,
     DestructuringObjectsComponent,
     ArrowFunctionsComponent,
-    ForOfComponent
+    ForOfComponent,
+    MapSetComponent
   ],
   imports: [
     BrowserModule,

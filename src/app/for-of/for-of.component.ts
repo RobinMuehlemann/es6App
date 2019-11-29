@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpClientModule, HttpParams} from '@angular/common/http';
 
 @Component({
   selector: 'app-for-of',
@@ -9,7 +10,8 @@ export class ForOfComponent implements OnInit {
   // - The for-in loop is for looping over object properties
   // - The for-of loop is for looping over the values in an array
   // - The for- of is not just for arrays, it also works on most array-like objects
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

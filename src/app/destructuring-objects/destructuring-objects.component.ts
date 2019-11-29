@@ -21,7 +21,7 @@ export class DestructuringObjectsComponent implements OnInit {
     // - Oder
 
     const person = {name1: 'Kavisan', country1: 'Sri-Lanka', job1: 'office'};
-    const { name1, country1, job1 } = person;
+    const {name1, country1, job1} = person;
 
     // - Das Resultat bleibt gleich
     console.log('----------------------------------------');
