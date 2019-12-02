@@ -5,6 +5,7 @@ import {TemplateLiteralsComponent} from './template-literals/template-literals.c
 import {DestructuringObjectsComponent} from './destructuring-objects/destructuring-objects.component';
 import {ArrowFunctionsComponent} from './arrow-functions/arrow-functions.component';
 import {ForOfComponent} from './for-of/for-of.component';
+import {ExtendedParameterHandlingComponent} from './extended-parameter-handling/extended-parameter-handling.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'destructuringObjects', component: DestructuringObjectsComponent},
   {path: 'arrowFunction', component: ArrowFunctionsComponent},
   {path: 'forOf', component: ForOfComponent},
+  {path: 'extendedParameterHandling', component: ExtendedParameterHandlingComponent},
 ];
 
 @NgModule({

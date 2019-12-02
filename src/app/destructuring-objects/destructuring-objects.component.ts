@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {count} from 'rxjs/operators';
 
 @Component({
   selector: 'app-destructuring-objects',
@@ -53,10 +52,9 @@ export class DestructuringObjectsComponent implements OnInit {
   public setFunctionDestructuring() {
     const PersonRob = {
       name: 'Robin Mühlemann',
-      email: undefined,
+      email: 'lilrob@gmail.com',
       age: 19,
       phone: '031 111 22 33',
-      info: 'Mit Default'
     };
 
     const PersonKavi = {
@@ -64,17 +62,15 @@ export class DestructuringObjectsComponent implements OnInit {
       email: 'kavi@nagi.ch',
       age: 19,
       phone: '031 444 55 66',
-      info: 'Ohne Default'
     };
     this.setFunctionDestructuring2(PersonRob);
     this.setFunctionDestructuring2(PersonKavi);
   }
-  public setFunctionDestructuring2({age, email = 'Default mail', name, phone, info}) {
+  public setFunctionDestructuring2({age, email, name, phone}) {
     // - Falls keine Email gesetzt wurde, kann ein Default-Wert mitgegeben werden
     // - Die Parameter sind optional. Das heisst, dass ich in dieser Funktion auch nicht auf 'age' zugreiffen müsste
 
     console.log('----------------------------------------');
-    console.log(`-- ${info} --`);
     console.log('Name: ', name);
     console.log('Email: ', email);
     console.log('Age: ', age);

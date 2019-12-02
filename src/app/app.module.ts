@@ -9,6 +9,7 @@ import { DestructuringObjectsComponent } from './destructuring-objects/destructu
 import { ArrowFunctionsComponent } from './arrow-functions/arrow-functions.component';
 import { ForOfComponent } from './for-of/for-of.component';
 import { MapSetComponent } from './map-set/map-set.component';
+import { ExtendedParameterHandlingComponent } from './extended-parameter-handling/extended-parameter-handling.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MapSetComponent } from './map-set/map-set.component';
     DestructuringObjectsComponent,
     ArrowFunctionsComponent,
     ForOfComponent,
-    MapSetComponent
+    MapSetComponent,
+    ExtendedParameterHandlingComponent
   ],
   imports: [
     BrowserModule,
